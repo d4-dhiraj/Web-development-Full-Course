@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        /*1 table,td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 10px 10px 10px 10px;
+            
+        }
+        .header{
+            font-weight: bold;
+            padding: 10px 10px 10px 10px;
+        } */
+        /*2 table,td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px 5px 5px 5px;
+            text-align: center;
+            } */
+             table,td,th {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px 5px 5px 5px;
+            text-align: center;
+            }
+    </style>
+</head>
+<body>
+        <div class="wrapper">
+        <h1>Table</h1>
+        <!--  1 <table style="border: 2px solid black;">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            
+        </table> -->
+        <!-- <table>
+            <tr class="header">
+                <td>1 header</td>
+                <td>1 header</td>
+                <td>1 header</td>
+            </tr>
+            <tr>
+                <td>1 data</td>
+                <td>1 data</td>
+                <td>1 data</td>
+            </tr>
+            <tr>
+                <td>2 data</td>
+                <td>2 data</td>
+                <td>2 data</td>
+            </tr>
+            <tr>
+                <td>3 data</td>
+                <td>3 data</td>
+                <td>3 data</td>
+            </tr>
+        </table> -->
+        <!-- 2 <table>
+            <tr>
+                <td rowspan="2"></td>
+                <td colspan="2">Average</td>
+                <td rowspan="2">Red Eyes</td>
+            </tr>
+            <tr>
+                <td>height</td>
+                <td>weight</td>
+                
+            </tr>
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>30%</td>
+            </tr>
+        </table> -->
+
+        <table>
+            <caption>Employee's Table</caption>
+            <thead>
+                <tr>
+                    <th colspan="4">New Employee Records</th>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <th colspan="2">Jobs</th>
+                    <th>Working Experience</th>
+            </tr>
+            </thead>
+            <tr>
+                <td>Dhiraj</td>
+                <td>Software Engineer</td>
+                <td>Data Analyst</td>
+                <td rowspan="2">5 years</td>
+            </tr>
+            <tr>
+                <td>Aman</td>
+                <td colspan="2">Senior Web Devloper</td>
+            </tr>
+            <tr>
+                <td>Ashutosh</td>
+                <td>Junior tech Writer</td>
+                <td>Blogger</td>
+                <td>6 Month</td>
+                <tbody>
+<!-- <td></td> -->
+                </tbody>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
